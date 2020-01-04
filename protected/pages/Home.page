@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Welcome to PRADO</title>
+</head>
+<body>
+<com:TContent ID="Main">
+</com:TContent>
+
+<com:TContent ID="Columna">
+        <h2>What's this all about?</h2>
+        <p>A website's success or failure depends to a large extent on it's navigation system. If it is difficult for your visitors to navigate your pages they will not stay long and, what is worse, they will not return. Is your navigation search engine friendly? Does it rely entirely on javascript? Is it difficult to update? If you are having problems finding suitable menus then look no further.</p>
+</com:TContent>
+</body>
+</html>

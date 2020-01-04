@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<application id="webticket" mode="Debug">
+
+  <paths>
+    <using namespace="Application.libreria.funciones" />
+  </paths>
+
+  <modules>
+  <module class="System.Data.TDataSourceConfig" id="db1">
+    <database ConnectionString="mysql:host=localhost;dbname=webticket" 
+       Username="root" Password="osha" />
+  </module> 
+  </modules>
+
+  <!-- configuration for available services -->
+  <services>
+    <service id="page" class="TPageService" DefaultPage="Home" />
+
+    <service id="page" class="TPageService" DefaultPage="Home">
+      <pages MasterClass="Application.layouts.MainLayout" Theme="basico" />
+    </service>
+  </services>
+
+  <!-- application parameters
+  <parameters>
+    <parameter id="param1" value="value1" />
+    <parameter id="param2" value="value2" />
+  </parameters>
+  -->
+</application>

@@ -1,0 +1,44 @@
+body {background:#fff url(../../assets/background.gif) repeat-x; margin:0; padding:0; border:0; text-align:center; font-size:76%; font-family: arial, sans-serif;}
+#wrapper {width:1000px; margin:0 auto; text-align:left; position:relative; overflow:hidden;}
+#header {height:180px;}
+#header h1 {width:293px; height:0; padding:180px 0 0 0; overflow:hidden; background:url(../../assets/logo.png) no-repeat; margin:0; float:left;}
+h2 {padding:0; margin:20px 0 10px 0; font-size:18px; font-weight:normal;}
+h5 {font-size:15px;}
+p {padding:0; margin:5px 0; line-height:18px; font-size:12px;}
+#content {clear:both; width:1000px; background:url(../../assets/rightback.gif) repeat-y right top; font-family:"trebuchet ms", arial, sans-serif;}
+#content h2 {color:#c40; font-size:20px;}
+#content p {font-size:14px;}
+
+.leftCol {width:600px; float:left; padding-bottom:30px;}
+.rightCol {width:300px; float:right; border-top:4px solid #f07700;}
+#footerTop {background:#55555f url(../../assets/footline.gif) repeat-x left top; text-align:left;}
+#footerBottom {background:#44444f; text-align:left; margin-bottom:50px; font-size:11px; border-top:1px solid #fff;}
+#footerT {clear:both; width:1000px; margin:0 auto; color:#bbb; background:url(../../assets/rightbackfoottop.gif) repeat-y right top;}
+#footerB {width:1000px; margin:0 auto; color:#ddd; background:url(../../assets/rightbackfootbottom.gif) repeat-y right top;}
+.inner {padding:10px;}
+.small {font-size:10px;}
+ol li {line-height:2em; font-size:14px;}
+.clear {clear:both; height:0; overflow:hidden;}
+
+#menulist {padding:0; margin:0; list-style:none;}
+#menulist li.left {float:left; margin-right:15px; padding:5px; border:3px solid #eee; margin-bottom:10px;}
+#menulist li.right {float:right; padding:5px; border:3px solid #eee; margin-bottom:10px;}
+#menulist li.current {border-color:#e60;}
+
+#menulist li a img {border:0; display:block;}
+#menulist li a {text-decoration:none; color:#000;}
+#menulist li a:hover b {text-decoration:underline;}
+
+.download {list-style-image: url(../../assets/li.gif);}
+.download li a {color:#bbb; text-decoration:none; line-height:18px;}
+.download li a:hover {color:#fff;}
+
+
+.downloads {width:140px; float:left; margin-right:5px; display:inline;}
+.black {color:#eee; border-bottom:1px solid #777;}
+
+img.feed {display:block; padding-right:20px; float:left;}
+a.rss {font-size:14px; color:#c40;}
+a.rss:hover {text-decoration:none;}
+
+img.preload {position:absolute; left:-9999px; top:0;}
